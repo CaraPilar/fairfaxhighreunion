@@ -85,6 +85,11 @@ header, footer {
     text-align: center;
     color: #da9e63;
     padding: 4rem 0rem;
+    background-image: url(images/sparkle-bg.jpg);
+    background-size: 300px;
+    background-repeat: repeat-x;
+    background-position: 0 100%;
+    
 }
 .hero h1 {
     font-size: 34px;
@@ -135,6 +140,24 @@ section h2 {
     width:100%;
     margin: 3rem 0;
 }
+#countdown-timer {
+    position: relative;
+}
+#countdown-timer .hide-brand {
+    height: 28px;
+    position: absolute;
+    background-color: #131313;
+    left: 0;
+    right: 0;
+    width: 100%;
+    bottom: -6px;
+    z-index: 99999999;
+    transition: none !important;
+}
+/* .eapps-countdown-timer {
+    transition: none !important;
+} */
+
 /* Event Section */
 .event {
     background-position: left 100px;
@@ -250,14 +273,28 @@ section h2 {
 .contact {
     background-color: #EAE5D2;
 }
+
 .contact .wrapper {
     max-width: 768px;
     margin: auto;
 }
+.contact #mc_embed_signup .mc-field-group, 
+.contact #mc_embed_signup .mc-address-fields-group {
+    width: 100%;
+}
+
 
 #mc_embed_signup .helper_text {
     background: none;
 }
+@media (max-width: 768px) {
+    .contact #mc_embed_signup .mc-address-fields-group {
+        display:block;
+    
+    }
+}
+
+/* Footer */
 footer {
     text-align: center;
     color: #da9e63;
