@@ -269,9 +269,14 @@ section h2 {
     margin-bottom: 10px;
 }
 
+/* Photo Section */
+
+.photos {
+    background-color: #EAE5D2;
+}
 /* Contact Section */
 .contact {
-    background-color: #EAE5D2;
+    /*background-color: #EAE5D2;*/
 }
 
 .contact .wrapper {
