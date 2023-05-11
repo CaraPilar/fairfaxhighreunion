@@ -215,7 +215,7 @@ section h2 {
 .fees {
     background-color: #EAE5D2;
 }
-.fees .text {
+.fees .wrapper {
     max-width: 768px;
     margin: auto;
 }
@@ -271,12 +271,9 @@ section h2 {
 
 /* Photo Section */
 
-.photos {
-    background-color: #EAE5D2;
-}
 /* Contact Section */
 .contact {
-    /*background-color: #EAE5D2;*/
+    background-color: #EAE5D2;
 }
 
 .contact .wrapper {
@@ -291,6 +288,9 @@ section h2 {
 
 #mc_embed_signup .helper_text {
     background: none;
+}
+.qr-code {
+    display:none;
 }
 @media (max-width: 768px) {
     .contact #mc_embed_signup .mc-address-fields-group {
@@ -362,5 +362,23 @@ footer a {
         grid-template-columns: 1fr 1fr;
         border-bottom: 1px solid #000;
     }
+
+    .payment-option1 {
+        display:flex;
+    }
+
+    .payment-option1 .text {
+        padding-right: 10px;
+    }
+    .qr-code {
+        display:block;
+    }
+
+    /* .payment-options {
+        display: flex;
+    }
+    .payment-option {
+        width: 50%;
+    } */
 
 }
